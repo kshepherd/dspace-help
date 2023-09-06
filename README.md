@@ -1,4 +1,4 @@
 # dspace-help
 Lists, guides, notes, tools, resources, advice related to the DSpace digital repository platform
 
-* [DSpace 7: Upgrading / migrating - lists of resources and notes](https://github.com/kshepherd/dspace-help/blob/main/dspace7-upgrade-lists)
+To browse help pages as a wiki, see [the wiki](https://github.com/kshepherd/dspace-help/wiki/) - all the content in the "code" section of this repository will be related code snippets, tools, images, etc
