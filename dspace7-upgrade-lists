@@ -1,0 +1,36 @@
+# DSpace 7 upgrade/migration lists
+
+Some lists of tips, notes, links related to upgrading a DSpace repository to 7.x or migrating from another platform to DSpace 7.x
+
+## In my experience, things to consider:
+
+* _New technology_: nodejs/angular, front/backend communication
+* _Non-volatile Solr data_: statistics, authority
+* _URLs_: redirection, rewriting, persistent IDs, saved searches, etc.
+* _Customisations_: Blank slate? Submit to official codebase? Port/rewrite?
+* _Other changes_: A good opportunity to introduce other big changes? Or a trap to bog down a migration project?
+* _Entities_: transform/implement as part of migration?
+
+## Wiki links
+
+* [Official DSpace 7 documentation](https://wiki.lyrasis.org/display/DSDOC7x) includes upgrade advice and instructions, some troubleshooting FAQ
+* On the wiki a page called [DSpace 7 UI Optimization Analysis](https://wiki.lyrasis.org/display/DSPACE/DSpace+7+UI+Optimization+Analysis) covers optimisation findings so far. They should be integrated with main documentation but it is a good page to watch
+* Another wiki page which is still maintained: https://wiki.lyrasis.org/display/DSDOC7x/Performance+Tuning+DSpace
+
+## OR2023 links related to DSpace 7 upgrading/migrating/implementing
+* [Adopting the DSpace 7 platform: challenges, gaps, problematics, and solution formulas from real migration experiences](https://zenodo.org/record/8075512) by 4science covers some lessons learned from various migrations and implementations
+* [Update to DSpace 7](https://zenodo.org/record/8074863) is a workshop from Stellenbosch University that covered basic upgrades
+* The [DSpace 8 release status page](https://wiki.lyrasis.org/display/DSPACE/DSpace+Release+8.0+Status) covers priorities, timelines, and status of the upcoming 8.0 major release. No more features will be introduced for DSpace 7, only bugfixes and improvements.
+* [An update on DSpace CRIS, the state of the art tool for Research & Information management](https://zenodo.org/record/8091577) covers DSpace CRIS 7 -- **not** the same as DSpace 7 but shares a large common code base and continues to merge closer. It aims to be both repository and CRIS.
+* [Modeling Digital Cultural Landscapes with DSpace](https://zenodo.org/record/8091676) introduces DSpace GLAM 7, which, similar to DSpace CRIS 7, extends/diverges from a common code base to provide a single platform focused on GLAM solutions
+* [dspace-rest-client: A Python REST client library for DSpace 7](https://zenodo.org/record/8091637) shows my python rest client which might help with some upgrades or migrations, if python integration/tools are a good fit
+* ...an [Open Repositories 2023 zenodo search](https://zenodo.org/search?page=1&size=20&q="DSpace%207"&keywords=OR2023) should find all relevant papers from OR2023
+
+Live DSpace 7.x repositories:
+
+A short list of a few example IRs to get an idea of theme variance, feature variance, performance and content presentation, etc
+
+* https://scholar.sun.ac.za
+* https://depositonce.tu-berlin.de
+* https://irf.fhnw.ch
+* https://dr.lib.iastate.edu/
